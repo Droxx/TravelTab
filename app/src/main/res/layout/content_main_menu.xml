@@ -12,8 +12,21 @@
     tools:context="solutions.platypus.traveltab.MainMenuActivity"
     tools:showIn="@layout/activity_main_menu">
 
-    <TextView
+
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="@string/main_menu_add_transaction_string"
+        android:id="@+id/main_menu_add_transaction_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main_menu_view_transactions_string"
+        android:id="@+id/main_menu_view_transactions_button"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/main_menu_add_transaction_button"
+        android:layout_marginTop="20dp" />
 </RelativeLayout>
